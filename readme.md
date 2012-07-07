@@ -22,9 +22,9 @@ fs.exists(...);
 
 // Using a module that isn't up-to-date yet?
 // Use the patch to avoid those annoying warning messages or losing
-// support when path.exists is removed completely.
+// support when fs.exists is removed completely.
 patch.patchBackward();
-path.exists(...);
+fs.exists(...);
 
 // Just want to be thorough without worrying about the specific use-cases?
 // Patch both ways!
