@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/SportZing/node-exists-patch.png)](http://travis-ci.org/SportZing/node-exists-patch)
 # exists-patch
 
 A two-way patch for Node.js' (fs/path).exists(Sync) functions.
